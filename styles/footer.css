@@ -1,0 +1,10 @@
+footer {
+    background-color: rgb(23, 176, 247);
+    float: center;
+    color:  rgb(4, 34, 88);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 5px;
+}

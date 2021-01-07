@@ -5,7 +5,7 @@ header {
     justify-content: space-between;
     margin-bottom: 10px;
     align-items: center;
-
+    font-size: larger;
 }
 .img logo {
     align-items: flex-start;
