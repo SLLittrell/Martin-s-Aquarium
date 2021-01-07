@@ -2,7 +2,7 @@ header {
     display: flex;
     flex-direction: row;
     background-color: cadetblue;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 10px;
     align-items: center;
     font-size: larger;
@@ -22,4 +22,6 @@ header {
     text-decoration: none;
     font-size: 17px;
   }
-  
+ .homeNavBar a:hover {
+     background-color: darkcyan;
+ } 

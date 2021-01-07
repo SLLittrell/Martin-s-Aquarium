@@ -3,14 +3,19 @@
     flex-wrap: wrap;
     flex: 1 1 0;
     flex-direction: column;
-    align-items: center;
     border-radius: 25%;
     background-color: cadetblue;
     padding: 20px;
-    text-align: center;
     margin: 5px;
 }
 .fishCard__img {
     width: 75%;
     border-radius: 20px;
+    align-self: center;
+}
+.fishCard p {
+    margin: 4px;
+    font-size: small;
+    text-align: left;
+
 }

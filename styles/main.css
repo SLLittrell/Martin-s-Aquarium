@@ -3,6 +3,7 @@
 @import "quotes.css";
 @import "locations.css";
 @import "footer.css";
+@import "tips.css";
 
 
 main {
@@ -11,15 +12,30 @@ main {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(4, 34, 88);
 }   
-
-
-}
 .contentContainer {
     justify-content: center;
+    display: flex;
+}
+.containerLeft {
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 75%;
+    justify-content: space-between;
+    padding-right: 5px;
+}
+.containerRight {
+    display: flex;
+    flex-basis:25%;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(30, 133, 151);
+    border-radius: 10%;
+    padding-top: 5px;
+    margin-bottom: 20px;
 }
 .containerLeft__fishList {
     display: flex;
-    flex: 1 1 0;
+    flex: auto;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: rgb(224, 245, 240);
@@ -44,25 +60,6 @@ main {
     margin-bottom: 20px;
     padding: 3px;
 }
-
-.contentContainer {
-    display: flex;
-}
-.containerLeft {
-    flex-wrap: wrap;
-    flex-direction: column;
-    flex-basis: 75%;
-    justify-content: space-between;
-    padding-right: 5px;
-}
-.containerRight {
-    display: flex;
-    flex-basis:25%;
-    justify-content: center;
-    background-color: rgb(30, 133, 151);
-    border-radius: 5%;
-    align-items: flex-start;
-}
-.tips {
-   
+.section-head {
+    text-align: center;
 }
