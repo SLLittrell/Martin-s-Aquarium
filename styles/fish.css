@@ -1,6 +1,14 @@
+.containerLeft__fishList {
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(224, 245, 240);
+    margin-bottom: 20px;
+    padding: 3px;
+}
 .fishCard {
     display: flex;
-    flex-wrap: wrap;
     flex: 1 1 0;
     flex-direction: column;
     border-radius: 25%;
@@ -15,7 +23,7 @@
 }
 .fishCard p {
     margin: 4px;
-    font-size: small;
+    font-size:medium;
     text-align: left;
 
 }

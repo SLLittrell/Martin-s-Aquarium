@@ -1,4 +1,12 @@
-    
+.containerLeft__travelLocations {
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(224, 245, 240);
+    margin-bottom: 20px;
+    padding: 3px;
+}    
 .location {
     display: flex;
     flex-basis: 30%;

@@ -33,33 +33,7 @@ main {
     padding-top: 5px;
     margin-bottom: 20px;
 }
-.containerLeft__fishList {
-    display: flex;
-    flex: auto;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: rgb(224, 245, 240);
-    margin-bottom: 20px;
-    padding: 3px;
-}
-.containerLeft__travelQuotes {
-    display: flex;
-    flex: auto;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: rgb(224, 245, 240);
-    margin-bottom: 20px;
-    padding: 3px;
-}
-.containerLeft__travelLocations {
-    display: flex;
-    flex: auto;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: rgb(224, 245, 240);
-    margin-bottom: 20px;
-    padding: 3px;
-}
+
 .section-head {
     text-align: center;
 }
