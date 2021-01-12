@@ -21,3 +21,6 @@ const fishCollection = [
         food: "Fish, aquatic invertibrates,crustaceans"
     }
 ]
+export const useFish = () => {
+    return fishCollection.slice()
+}
