@@ -1,6 +1,6 @@
 const fishCollection = [
     {   
-        image:"",
+        image:"https://i.ebayimg.com/images/g/2TMAAOSwO8Vfl3i2/s-l300.jpg",
         name: "Squishy",
         species:"Cuttle fish ",
         length:"1 ft",
@@ -8,7 +8,7 @@ const fishCollection = [
         food: "fish"
     }
     ,{   
-        image:"",
+        image:"https://www.theolivepress.es/wp-content/uploads/2020/03/cuttlefish.jpg",
         name: "Robin Hood",
         species:"Silver Arrowona",
         location: "Southeast Asia",
