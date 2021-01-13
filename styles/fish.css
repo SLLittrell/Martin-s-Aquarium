@@ -16,8 +16,8 @@
     padding: 20px;
     margin: 5px;
 }
-.fishCard__img {
-    width: 75%;
+.fishCard img {
+    width: 25%;
     border-radius: 20px;
     align-self: center;
 }

@@ -3,11 +3,11 @@ import { Fish } from './Fish.js'
 
 
 export const FishList = () => {
-    const contentElement = document.querySelector(".containerLeft__travelQuotes containerArticle")
+    const contentElement = document.querySelector(".containerLeft__fishList")
     const fishes = useFish()
     let fishHTMLRepresentations = ""
     for (const fish of fishes) {
-       return fishHTMLRepresentations += Fish(fishes)
+       fishHTMLRepresentations += Fish(fish)
     }
     
     contentElement.innerHTML += `
