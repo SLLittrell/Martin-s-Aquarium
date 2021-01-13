@@ -1,4 +1,4 @@
-imconst quoteCollection = [
+const quoteCollection = [
     {   
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4jpdlA8YcBOTuAvXc_Yb1JvM2fVggjBpHtg&usqp=CAU",
         quote: "This place is great!",
