@@ -1,29 +1,30 @@
-.containerLeft__fishList {
+.containerLeft article {
     display: flex;
-    flex: auto;
+    flex:auto;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
     background-color: rgb(224, 245, 240);
     margin-bottom: 20px;
     padding: 3px;
 }
 .fishCard {
+    width:30%;
     display: flex;
-    flex: 1 1 0;
+    flex:auto;
     flex-direction: column;
     border-radius: 25%;
     background-color: cadetblue;
-    padding: 20px;
-    margin: 5px;
+    padding: 10px;
+    margin: 3px;
 }
-.fishCard img {
-    width: 25%;
+.fishCard__img {
+    width: 50%;
     border-radius: 20px;
     align-self: center;
 }
-.fishCard p {
-    margin: 4px;
+.fishCard p{
+    margin: 10px;
     font-size:medium;
-    text-align: left;
-
+    text-align:center;
 }

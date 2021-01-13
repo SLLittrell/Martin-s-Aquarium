@@ -20,7 +20,7 @@ main {
     flex-wrap: wrap;
     flex-direction: column;
     flex-basis: 75%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-right: 5px;
 }
 .containerRight {
