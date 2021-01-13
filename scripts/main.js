@@ -1,6 +1,6 @@
 // import { useFish } from './FishDataProvider.js'
-import {FishList} from './fish/FishList' 
-// import {useQuote} from './quotes/QuoteDAtaProvider.js'
+import {FishList} from './fish/FishList.js' 
+import {useQuote} from './quotes/QuoteDAtaProvider.js'
 
 // const allTheFish = useFish()
 
@@ -10,8 +10,8 @@ import {FishList} from './fish/FishList'
 
 FishList()
 
-// const allTheQuotes = useQuote()
+const allTheQuotes = useQuote()
 
-// for (const quote of allTheQuote) {
-//     console.log(quote)
-// }
+for (const quote of allTheQuotes) {
+    console.log(quote)
+}

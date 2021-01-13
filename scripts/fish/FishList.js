@@ -1,5 +1,5 @@
-import { useFish } from './FishDataProvider'
-import { Fish } from './Fish'
+import {useFish} from './FishDataProvider.js'
+import {Fish} from './Fish.js'
 
 
 export const FishList = () => {
