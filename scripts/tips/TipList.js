@@ -2,20 +2,19 @@ import {useTip} from './TipDataProvider.js'
 import {Tip} from './Tip.js'
 
 // exporting function to main.js and looping through array in LocationDAtaProvider 
-export const TList = () => {
+export const TipList = () => {
     const contentElement = document.querySelector (".containerRight")
-    const locations = useLocation ()
-    let localHTMLRep = ""
-    for (const location of locations) {
-        localHTMLRep += Location(location)
-        
+    const tips = useTip ()
+    let tipHTMLRep = ""
+    for (const tip of tips) {
+        tipHTMLRep += Tip(tip)
     }
 // conent Element
     contentElement.innerHTML +=
         `
-        <article class="containerLeft__travelLocations containerArticle">
-            ${localHTMLRep}
-        </article>
+        <div class="tipList">
+            ${tipHTMLRep}
+        </div>
     `
 
 }

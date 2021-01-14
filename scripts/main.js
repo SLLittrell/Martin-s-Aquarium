@@ -4,6 +4,7 @@ import {FishList} from './fish/FishList.js'
 import { QuoteList } from './quotes/QuoteList.js'
 // import {useLocation} from './locations/LocationDAtaProvider.js'
 import { LocationList } from './locations/LocaionList.js'
+import { TipList } from './tips/TipList.js'
 // const allTheFish = useFish()
 
 // for (const fish of allTheFish) {
@@ -17,3 +18,5 @@ QuoteList()
 
 // 
 LocationList()
+
+TipList()
