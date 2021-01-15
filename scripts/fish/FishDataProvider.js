@@ -60,7 +60,7 @@ export const nonHolyFish = () => {
     // Any fish not a multiple of 3 or 5
     const regularFish= []
     for (const fish of fishCollection) {
-        if ( fish.length !== 0 )
+        if ( fish.length % 5 !== 0 && fish.length % 3 !== 0 )
              regularFish.push(fish)
         } 
     return regularFish
