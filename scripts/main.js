@@ -5,8 +5,8 @@ import { QuoteList } from './quotes/QuoteList.js'
 // import {useLocation} from './locations/LocationDAtaProvider.js'
 import { LocationList } from './locations/LocaionList.js'
 import { TipList } from './tips/TipList.js'
-import { mostHolyFish, nonHolyFish } from './fish/FishDataProvider.js'
-import {soldierFish} from './fish/FishDataProvider.js'
+// import { mostHolyFish, nonHolyFish } from './fish/FishDataProvider.js'
+// import {soldierFish} from './fish/FishDataProvider.js'
 // const allTheFish = useFish()
 
 // for (const fish of allTheFish) {
@@ -23,9 +23,9 @@ LocationList()
 
 TipList()
 
-mostHolyFish()
+// mostHolyFish()
 
-soldierFish()
+// soldierFish()
 
-nonHolyFish()
+// nonHolyFish()
 
