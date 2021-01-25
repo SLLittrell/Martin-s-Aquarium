@@ -5,16 +5,16 @@ import {Location} from './Location.js'
 export const LocationList = () => {
     const contentElement = document.querySelector (".containerLeft")
     const locations = useLocation ()
-    let localHTMLRep = ""
-    for (const location of locations) {
-        localHTMLRep += Location(location)
+    // let localHTMLRep = ""
+    // for (const location of locations) {
+    //     localHTMLRep += Location(location)
         
-    }
+    
 // conent Element
     contentElement.innerHTML +=
         `
         <article class="containerLeft__travelLocations containerArticle">
-            ${localHTMLRep}
+            ${locations.map(location => Location(location)) .join ("")}
         </article>
     `
 
